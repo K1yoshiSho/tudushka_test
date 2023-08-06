@@ -5,7 +5,8 @@ import 'package:tudushka/src/theme/app_text_style.dart';
 class FilterTile extends StatelessWidget {
   final String title;
   final Function() onTap;
-  const FilterTile({super.key, required this.onTap, required this.title});
+  final IconData icon;
+  const FilterTile({super.key, required this.onTap, required this.title, required this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +30,7 @@ class FilterTile extends StatelessWidget {
           title,
           style: AppTextStyle.bodyMedium500(context),
         ),
-        leading: const Icon(Icons.swap_vert),
+        leading: Icon(icon),
       ),
     );
   }

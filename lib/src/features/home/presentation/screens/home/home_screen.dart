@@ -91,6 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             const SizedBox(height: 16),
                             FilterTile(
                               title: 'Изменить порядок',
+                              icon: Icons.swap_vert_rounded,
                               onTap: () {
                                 Navigator.pop(context);
                                 if (_homeScreenModel.isReversed) {
@@ -121,6 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             const SizedBox(height: 16),
                             FilterTile(
                               title: 'Очистить заметки',
+                              icon: Icons.delete_outline_rounded,
                               onTap: () {
                                 Navigator.pop(context);
                                 IsarService().deleteAll();
