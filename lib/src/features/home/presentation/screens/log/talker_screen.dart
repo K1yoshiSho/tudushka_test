@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:group_button/group_button.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:talker_flutter/src/controller/talker_screen_controller.dart';
+import 'package:talker_flutter/src/controller/talker_view_controller.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 import 'package:tudushka/src/common/components/textfield_outlined.dart';
 import 'package:tudushka/src/features/home/presentation/screens/log/bottom_sheets/action_bottom_sheet.dart';
@@ -41,7 +41,7 @@ class TudushkaLogScreen extends StatefulWidget {
 }
 
 class _WorkspaceTalkerScreenState extends State<TudushkaLogScreen> {
-  final _controller = TalkerScreenController();
+  final _controller = TalkerViewController();
   final _titilesController = GroupButtonController();
 
   @override
