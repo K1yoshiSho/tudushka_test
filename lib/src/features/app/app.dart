@@ -1,34 +1,12 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
-// ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
-import 'package:tudushka/src/features/home/presentation/screens/home/home_screen.dart';
 import 'package:tudushka/src/router/router.dart';
 import 'package:tudushka/src/services/get_it.dart';
 import 'package:tudushka/src/theme/app_theme.dart';
-
-// class TudushkaApp extends StatelessWidget {
-//   const TudushkaApp({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-// return MaterialApp.router(
-//   title: 'Tudushka',
-//   theme: LightTheme,
-//   locale: const Locale("ru", "RU"),
-//   supportedLocales: const [
-//     Locale("ru", "RU"),
-//   ],
-//   localizationsDelegates: const [
-//     GlobalMaterialLocalizations.delegate,
-//     GlobalCupertinoLocalizations.delegate,
-//     GlobalWidgetsLocalizations.delegate,
-//   ],
-//   home: const HomeScreen(),
-// );
-//   }
-// }
 
 class TudushkaApp extends StatefulWidget {
   const TudushkaApp({super.key});

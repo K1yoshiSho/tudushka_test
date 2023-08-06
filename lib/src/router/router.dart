@@ -9,7 +9,6 @@ export 'package:go_router/go_router.dart';
 /// This line declares a global key variable which is used to access the [NavigatorState] object associated with a widget.
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
-final GlobalKey<NavigatorState> _homeSectionNavigatorKey = GlobalKey<NavigatorState>(debugLabel: 'homeSection');
 
 /// This function returns a [CustomTransitionPage] widget with default fade animation.
 
