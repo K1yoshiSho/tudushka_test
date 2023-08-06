@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432662656532",
+    "project_id": "tudushka-dev",
+    "storage_bucket": "tudushka-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432662656532:android:32ebb070146904af9c1901",
+        "android_client_info": {
+          "package_name": "com.example.tudushka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432662656532-aisdgm1hhud9chv8nmd91die82rime9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQudnmcxvcl3QmLvdwUXtBa3RzqQMpQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432662656532-aisdgm1hhud9chv8nmd91die82rime9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
